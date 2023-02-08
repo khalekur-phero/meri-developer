@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url('images/header_bg.png'), url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+}
+
+.primary-text {
+    color: #FD6E0A;
+}
+
+.primary-btn {
+    color: aliceblue;
+    height: 64px;
+    background: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.title-secondary {
+    color: #474747;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.title-primary {
+    color: #474747;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.title-p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.contact-btn {
+    color: #FD6E0A;
+    height: 64px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+}
+
+main {}
+
+.section-title {
+    text-align: center;
+    padding: 131px 156px;
+    margin: 0 auto;
+    background: #FFF8F3;
+    border-radius: 10px;
+    max-width: 1140px;
+    margin-top: 130px;
+
+
+}
+
+.section-head {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.section-p {
+    margin-top: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.mary {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.gmail {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.web {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.rangpur {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.what {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1140px;
+    margin-top: 130px;
+}
+
+.do {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.do-p {
+    margin-top: 30px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 14px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1140px;
+    margin-top: 130px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px 33px;
+}
+
+.skill-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {}
